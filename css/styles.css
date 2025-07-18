@@ -1,3 +1,4 @@
+/* Base styles */
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -15,8 +16,8 @@ a {
   text-decoration: none;
 }
 
-/* Логотип */
-.site-logo {
+/* Logo */
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -26,11 +27,11 @@ a {
   color: #4d5ae5;
 }
 
-.logo-accent {
+.logo-part {
   color: #2e2f42;
 }
 
-/* Навігація */
+/* Navigation links */
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -44,19 +45,19 @@ a {
   color: #404bbf;
 }
 
-/* Контакти */
-.contact-block {
+/* Address block */
+.contacts {
   font-style: normal;
 }
 
-.contact-link {
+.contacts-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
